@@ -1,0 +1,17 @@
+{
+    "name": "History Wizard",
+    "description": "History Wizard",
+    "version": "3.0",
+    "permissions": [
+        "tabs"
+        , "<all_urls>"
+        , "history"
+        ,"webRequest"
+        ,"bookmarks"
+    ],
+    "browser_action": {
+        "default_title": "History Wizard",
+        "default_popup": "history.html"
+    },
+    "manifest_version": 2
+}
